@@ -1,0 +1,2 @@
+module YotsHelper
+end

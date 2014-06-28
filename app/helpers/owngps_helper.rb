@@ -1,0 +1,2 @@
+module OwngpsHelper
+end

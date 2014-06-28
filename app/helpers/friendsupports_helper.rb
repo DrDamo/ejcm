@@ -1,0 +1,2 @@
+module FriendsupportsHelper
+end

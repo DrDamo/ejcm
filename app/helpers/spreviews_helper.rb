@@ -1,0 +1,2 @@
+module SpreviewsHelper
+end

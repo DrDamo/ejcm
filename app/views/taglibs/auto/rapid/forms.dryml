@@ -1,0 +1,275 @@
+<!-- AUTOMATICALLY GENERATED FILE - DO NOT EDIT -->
+
+
+<def tag="form" for="Contact">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="contacttype, contactdate, contactdetails, spnumber, staff, friend" param/>
+    <div param="actions">
+      <submit label="#{ht 'contact.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Criminal">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="startdate, enddate, details" param/>
+    <div param="actions">
+      <submit label="#{ht 'criminal.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Familysupport">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="familyname, familycontact, familycurrent" param/>
+    <div param="actions">
+      <submit label="#{ht 'familysupport.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Friend">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="forename, othernames, surname, address1, address2, city, county, postcode, homephone, mobile, workphone, dateofbirth, ethnicity, mainlanguage, religion" param/>
+    <div param="actions">
+      <submit label="#{ht 'friend.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Friendsupport">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="friendname, friendcontact, frientcurrent" param/>
+    <div param="actions">
+      <submit label="#{ht 'friendsupport.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Learning">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="startdate, condition, details, enddate" param/>
+    <div param="actions">
+      <submit label="#{ht 'learning.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Lonework">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="assessdate, staff, needsupport, violence, violencerlc, violencerll, violencerr, hazardapplicant, hazardapplicantrlc, hazardapplicantrll, hazardapplicantrr, hazardother, hazardotherrlc, hazardotherrll, hazardotherrr, riskmeasures, assessorsign, managersign, riskdate" param/>
+    <div param="actions">
+      <submit label="#{ht 'lonework.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Mental">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="startdate, condition, details, enddate" param/>
+    <div param="actions">
+      <submit label="#{ht 'mental.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Nextofkin">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="nokname, nokrelationship, nokaddress, noktel, nokmobile" param/>
+    <div param="actions">
+      <submit label="#{ht 'nextofkin.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Otherinfo">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="otherinfodate, otherinfotext" param/>
+    <div param="actions">
+      <submit label="#{ht 'otherinfo.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Otherservice">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="othername, othercontact, othercurrent" param/>
+    <div param="actions">
+      <submit label="#{ht 'otherservice.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Othersupport">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="othername, othercontact, othercurrent" param/>
+    <div param="actions">
+      <submit label="#{ht 'othersupport.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Owngp">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="gpname, surgeryname, surgeryaddress, surgerytel, current" param/>
+    <div param="actions">
+      <submit label="#{ht 'owngp.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Physical">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="startdate, condition, details, enddate" param/>
+    <div param="actions">
+      <submit label="#{ht 'physical.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Referral">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="refdate, referrer, referrerposition, refcontacts, refreason, clientaware, status, immigrationstatus, physicalhealth, learningdisability, mentalhealth, criminalconviction, social, yot, otherservice, familysupport, friendsupport, othersupport" param/>
+    <div param="actions">
+      <submit label="#{ht 'referral.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Social">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="ssname, sscontact, sscurent" param/>
+    <div param="actions">
+      <submit label="#{ht 'social.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Spreview">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="reviewdate, spmet, ifnotwhy" param/>
+    <div param="actions">
+      <submit label="#{ht 'spreview.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Supportplan">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="fullentry, plannumber, plandate, planreviewdate, staff, otherspresent, goal, comments, need1, need1date, need2, need2date, need3, need3date, support1, support1date, support2, support2date, support3, support3date, Clientsign, staffsign, attachment" param/>
+    <div param="actions">
+      <submit label="#{ht 'supportplan.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="User">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="name, email_address, administrator, state" param/>
+    <div param="actions">
+      <submit label="#{ht 'user.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+<def tag="invite-form" polymorphic/>
+<def tag="invite-form" for="User">
+  <form lifecycle="invite" merge param="default">
+    <error-messages param/>
+    <field-list fields="name, email_address" param/>
+    <div param="actions">
+      <submit label="#{ht 'user.actions.invite', :default=>['Invite']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+<def tag="accept-invitation-form" polymorphic/>
+<def tag="accept-invitation-form" for="User">
+  <form lifecycle="accept_invitation" merge param="default">
+    <error-messages param/>
+    <input type="hidden" name="key" value="&this.lifecycle.provided_key" if="&this.lifecycle.provided_key"/>
+    <field-list fields="password, password_confirmation" param/>
+    <div param="actions">
+      <submit label="#{t 'activerecord.attributes.user.lifecycle.transitions.accept_invitation', :default=>['Accept Invitation']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+<def tag="reset-password-form" polymorphic/>
+<def tag="reset-password-form" for="User">
+  <form lifecycle="reset_password" merge param="default">
+    <error-messages param/>
+    <input type="hidden" name="key" value="&this.lifecycle.provided_key" if="&this.lifecycle.provided_key"/>
+    <field-list fields="password, password_confirmation" param/>
+    <div param="actions">
+      <submit label="#{t 'activerecord.attributes.user.lifecycle.transitions.reset_password', :default=>['Reset Password']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+<def tag="form" for="Yot">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="yotname, yotcontact, yotcurrent" param/>
+    <div param="actions">
+      <submit label="#{ht 'yot.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
